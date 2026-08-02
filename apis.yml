@@ -1,7 +1,18 @@
 aid: mojo-vision
 name: Mojo Vision
-description: 'Mojo Vision is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Mojo Vision is a Saratoga, California semiconductor and display company
+  building a "wafers-in, wafers-out" micro-LED platform. Founded in 2015, it originally
+  developed the world''s smallest, densest dynamic display for an AR smart contact
+  lens, then pivoted in 2023 to commercializing micro-LED displays and optical interconnects.
+  Its platform combines a 300mm silicon architecture with GaN-on-Silicon emitters,
+  proprietary quantum dots and micro-lens arrays, and has demonstrated a monolithic
+  RGB panel at 4µm pixel pitch (6,350 ppi). Target markets are XR and AI-enabled glasses,
+  automotive heads-up displays, large-format displays, and high-density optical I/O
+  for AI infrastructure. Partners include Marvell, DigiLens and CY Vision; investors
+  include Khosla Ventures, NEA, Future Ventures, HP Tech Ventures, Amazon''s Alexa
+  Fund and Dolby Family Ventures. Mojo Vision is a hardware/silicon company and
+  publishes no public developer API, SDK, or developer portal.'
+image: https://assets.mojo.vision/system/uploads/fae/image/asset/19/md_open_graph.jpg
 url: https://raw.githubusercontent.com/api-evangelist/mojo-vision/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,15 @@ created: '2026-08-01'
 modified: '2026-08-01'
 tags:
 - Company
+- Semiconductors
+- Displays
+- Micro-LED
+- Hardware
+- Augmented Reality
+- Extended Reality
+- Optical Interconnect
+- AI Infrastructure
+- Quantum Dots
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mojo-vision-domain-security.yml
+- type: LLMsTxt
+  url: llms/mojo-vision-llms.txt
 - type: Website
-  url: https://forgeglobal.com/mojo-vision_stock/
+  url: https://www.mojo.vision/
+- type: About
+  url: https://www.mojo.vision/about
+- type: Product
+  url: https://www.mojo.vision/technology
+- type: News
+  url: https://www.mojo.vision/news
+- type: Partners
+  url: https://www.mojo.vision/partners
+- type: Careers
+  url: https://www.mojo.vision/careers
+- type: Contact
+  url: https://www.mojo.vision/contact
+- type: PrivacyPolicy
+  url: https://www.mojo.vision/privacy
+- type: TermsOfService
+  url: https://www.mojo.vision/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mojovision
+- type: Twitter
+  url: https://twitter.com/mojovisioninc
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/mojo-vision
+x-enrichment:
+  date: '2026-08-01'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

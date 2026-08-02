@@ -1,0 +1,46 @@
+# Mojo Vision
+
+> Mojo Vision is a Saratoga, California semiconductor and display company building a
+> "wafers-in, wafers-out" micro-LED platform. Founded in 2015, it first developed the
+> world's smallest, densest dynamic display for an AR smart contact lens, then pivoted
+> in 2023 to commercializing micro-LED displays and optical interconnects. Its platform
+> pairs a 300mm silicon architecture with GaN-on-Silicon emitters, proprietary quantum
+> dots and micro-lens arrays, and has demonstrated a monolithic RGB panel at 4µm pixel
+> pitch (6,350 ppi). Target markets are XR and AI-enabled glasses, automotive heads-up
+> displays, large-format displays, and high-density optical I/O for AI infrastructure.
+
+**Mojo Vision publishes no public API, SDK, developer portal, or machine-readable
+contract.** It is a hardware and silicon supplier; its customer relationships are OEM
+and design-win engagements, not self-serve developer onboarding. Probes of the website
+host and the conventional developer subdomains for OpenAPI, GraphQL, MCP, `/llms.txt`
+and every `/.well-known/` discovery path all returned 404 or no DNS on 2026-08-01. Do
+not infer or synthesize an API surface for this company.
+
+## Company
+
+- [Mojo Vision](https://www.mojo.vision/): Company homepage.
+- [About](https://www.mojo.vision/about): Company, leadership and investors.
+- [Micro-LED Platform](https://www.mojo.vision/technology): The wafers-in, wafers-out micro-LED platform, quantum dots and micro-lens arrays.
+- [Partners](https://www.mojo.vision/partners): Ecosystem and technology partners, including Marvell, DigiLens and CY Vision.
+- [News + Insight](https://www.mojo.vision/news): Press releases and company news.
+- [Careers](https://www.mojo.vision/careers): Open engineering roles.
+- [Contact](https://www.mojo.vision/contact): Business and general contact.
+
+## Legal
+
+- [Privacy Policy](https://www.mojo.vision/privacy)
+- [Terms of Service](https://www.mojo.vision/terms)
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/company/mojovision)
+- [X / Twitter](https://twitter.com/mojovisioninc)
+- [Crunchbase](https://www.crunchbase.com/organization/mojo-vision)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/mojo-vision/refs/heads/main/apis.yml): APIs.json 0.20 index for this provider.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/mojo-vision/refs/heads/main/security/mojo-vision-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/mojo-vision/refs/heads/main/well-known/mojo-vision-well-known.yml): Contract-discovery probe results (all misses).
+
+<!-- generated: 2026-08-01 | method: generated | source: apis.yml + repo artifacts -->
