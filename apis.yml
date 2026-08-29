@@ -12,6 +12,17 @@ description: 'Mojo Vision is a Saratoga, California semiconductor and display co
   include Khosla Ventures, NEA, Future Ventures, HP Tech Ventures, Amazon''s Alexa
   Fund and Dolby Family Ventures. Mojo Vision is a hardware/silicon company and
   publishes no public developer API, SDK, or developer portal.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://assets.mojo.vision/system/uploads/fae/image/asset/19/md_open_graph.jpg
 url: https://raw.githubusercontent.com/api-evangelist/mojo-vision/refs/heads/main/apis.yml
 x-type: company
